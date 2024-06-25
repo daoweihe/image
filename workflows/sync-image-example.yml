@@ -28,4 +28,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/mysql:5.7 docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/mysql:5.7
+         skopeo copy docker://docker.io/calico/cni:v3.25.0 docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/calico/cni:v3.25.0
