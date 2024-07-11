@@ -28,4 +28,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://quay.io/prometheus/prometheus:v2.41.0  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/prometheus:v2.41.0
+         skopeo copy docker://grafana/grafana:8.5.5  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/grafana:8.5.5
