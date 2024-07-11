@@ -28,4 +28,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://grafana/grafana:8.5.5  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/grafana:8.5.5
+         skopeo copy docker://k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.5.0  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/kube-state-metrics:v2.5.0
