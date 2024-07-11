@@ -28,4 +28,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.7.0  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/kube-state-metrics:v2.7.0
+         skopeo copy docker://registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.10.0  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/prometheus-adapter:v0.10.0
