@@ -28,4 +28,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/calico/node:v3.28.0  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/node:v3.28.0
+         skopeo copy docker://docker.io/calico/kube-controllers:v3.28.0  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/kube-controllers:v3.28.0
