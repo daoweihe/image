@@ -28,4 +28,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://registry.k8s.io/prometheus-adapter/prometheus-adapter:v0.11.1  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/prometheus-adapter:v0.11.1
+         skopeo copy docker://quay.io/prometheus/prometheus:v2.46.0  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/prometheus:v2.46.0
