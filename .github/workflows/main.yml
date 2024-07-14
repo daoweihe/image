@@ -28,4 +28,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://rancher/rancher:2.8.5  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/rancher:2.8.5
+         skopeo copy docker://rancher/rancher:v2.8.5  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/rancher:v2.8.5
