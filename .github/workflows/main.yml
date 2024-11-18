@@ -28,4 +28,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://goharbor/prepare:v2.12.0  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/prepare:v2.12.0
+         skopeo copy docker://docker.io/calico/pod2daemon-flexvol:v3.29.0  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/calico-pod2daemon-flexvol:v3.29.0
