@@ -28,4 +28,4 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/calico/cni:v3.29.0  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/calico-pod2daemon-cni:v3.29.0
+         skopeo copy docker://docker.io/calico/node:v3.29.0  docker://registry.cn-hangzhou.aliyuncs.com/daoweihe/calico-pod2daemon-node:v3.29.0
